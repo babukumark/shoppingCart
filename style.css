@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 body{
     width: 100%;
@@ -21,7 +21,7 @@ h2{
     width: 800px;
     height: 400px;
     background-color: rgb(255,255,255);
-    margin-left: 17%;
+    margin-left: 20%;
     margin-top: 10%;
     display: flex;
     border-radius: 5px;
@@ -51,6 +51,7 @@ h2{
 .inputs{
     width: 200px;
     margin-bottom: 30px;
+
 }
 input{
     width: 100%;
@@ -80,17 +81,23 @@ p{
     
 }
 .list-head{
+
     border-bottom: 1px solid rgba(0,0,0,0.6) ;
     padding: 2%;
-    font-size: 20px;
+    /* font-size: 20px; */
+}
+#name-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    background-color: rgba(99, 83, 159, 0.3);
+    
 }
 .icon1{
     padding: 10px;
    
 }
-/* svg{
-    width: 0px;
-    height: 20px;
-    color: #451ad3;
-} */
+
 
